@@ -1,0 +1,11 @@
+#sim-tutorial-video {
+    width: 500px;
+    padding: 2rem;
+    margin-bottom: 10px;
+   
+}
+
+.flight-sim-tutorial-text {
+    display: flex;
+    text-align: center;
+}

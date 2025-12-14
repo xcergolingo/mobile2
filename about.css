@@ -1,0 +1,9 @@
+.brain-with-icons {
+    max-width: 500px;
+}
+
+@media screen and (max-width: 678px) {
+    .brain-with-icons {
+      max-width: 100%;
+    }
+  }

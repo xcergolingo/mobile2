@@ -1,0 +1,140 @@
+video {
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    margin-bottom: 30px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #fafafa;
+
+}
+
+.wrapper h1 {
+    font-size: 3em;
+    margin: 25px 0;
+    text-align: center;
+    font-weight: 500;
+}
+
+.content-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1000px;
+    
+}
+
+.card {
+    height:420px;
+    width: 320px;
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #fff;
+    margin: 10px 4px;
+    box-shadow: 0px 15px 25px rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.card i {
+    margin: 20px;
+    color: #75e3eaff;
+    align-self: auto;
+    height: 40px;
+    
+}
+
+.card h2 {
+    margin-bottom: 12px;
+    font-weight: 400;
+    text-align: center;
+    height: 200px;
+    
+}
+
+.card p {
+    color: #6c757d;
+    text-align: center;
+    display: flex;
+    margin-bottom: 12px;
+    height: 700px;
+}
+
+.card:hover i, .card:hover p{
+    color: #fff;
+
+}
+
+.card:hover h2{
+    font-weight: 500;
+}
+
+.card:nth-child(1):hover{
+    background: linear-gradient(45deg, rgba(117,227,234,0.7) 0%, rgba(117,227,234,0.7))
+}
+.card:nth-child(2):hover{
+    background: linear-gradient(45deg, rgba(117,227,234,0.7) 0%, rgba(117,227,234,0.7))
+}
+.card:nth-child(3):hover{
+    background: linear-gradient(45deg, rgba(117,227,234,0.7) 0%, rgba(117,227,234,0.7))
+}
+.card:nth-child(4):hover{
+    background: linear-gradient(45deg, rgba(117,227,234,0.7) 0%, rgba(117,227,234,0.7))
+}
+.card:nth-child(5):hover{
+    background: linear-gradient(45deg, rgba(117,227,234,0.7) 0%, rgba(117,227,234,0.7))
+}
+.card:nth-child(6):hover{
+    background: linear-gradient(45deg, rgba(117,227,234,0.7) 0%, rgba(117,227,234,0.7))
+}
+.card:nth-child(7):hover{
+    background: linear-gradient(45deg, rgba(117,227,234,0.7) 0%, rgba(117,227,234,0.7))
+}
+.card:nth-child(8):hover{
+    background: linear-gradient(45deg, rgba(117,227,234,0.7) 0%, rgba(117,227,234,0.7))
+}
+.card:nth-child(9):hover{
+    background: linear-gradient(45deg, rgba(117,227,234,0.7) 0%, rgba(117,227,234,0.7))
+}
+.card:nth-child(10):hover{
+    background: linear-gradient(45deg, rgba(117,227,234,0.7) 0%, rgba(117,227,234,0.7))
+}
+.card:nth-child(11):hover{
+    background: linear-gradient(45deg, rgba(117,227,234,0.7) 0%, rgba(117,227,234,0.7))
+}
+.card:nth-child(12):hover{
+    background: linear-gradient(45deg, rgba(117,227,234,0.7) 0%, rgba(117,227,234,0.7))
+}
+.card:nth-child(13):hover{
+    background: linear-gradient(45deg, rgba(117,227,234,0.7) 0%, rgba(117,227,234,0.7))
+}
+
+/*** Responsive ***/
+@media(max-width: 991px)
+{
+    .wrapper {
+        padding: 25px;
+
+    }
+    .wrapper h1 {
+        font-size: 2.5em;
+        font-weight: 600;
+    }
+    .content-box {
+        flex-direction: column;
+        width: 100%;
+    }
+    .card {
+        min-width: 300px;
+        margin: 10px auto;
+
+    }
+}
